@@ -1,0 +1,83 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {
+      "midTerm.Models/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
+      }
+    }
+  },
+  "libraries": {
+    "midTerm.Models/1.0.0": {
+      "type": "project",
+      "path": "../midTerm.Models/midTerm.Models.csproj",
+      "msbuildProject": "../midTerm.Models/midTerm.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": [
+      "midTerm.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Antonio\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Antonio\\Downloads\\2021 (1)\\2021\\final\\midTerm.Services\\midTerm.Services.csproj",
+      "projectName": "midTerm.Services",
+      "projectPath": "C:\\Users\\Antonio\\Downloads\\2021 (1)\\2021\\final\\midTerm.Services\\midTerm.Services.csproj",
+      "packagesPath": "C:\\Users\\Antonio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Antonio\\Downloads\\2021 (1)\\2021\\final\\midTerm.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Antonio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "projectReferences": {
+            "C:\\Users\\Antonio\\Downloads\\2021 (1)\\2021\\final\\midTerm.Models\\midTerm.Models.csproj": {
+              "projectPath": "C:\\Users\\Antonio\\Downloads\\2021 (1)\\2021\\final\\midTerm.Models\\midTerm.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project midTerm.Models is not compatible with net50 (.NETFramework,Version=v5.0). Project midTerm.Models supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "midTerm.Models",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "jba2/Ih1bdU2q6RuvlLY9vG1/gzyKMupwV8Xq6f4pmyk8zi/nOB5XHKIR5KGO1+EffL2lHitjvpJ9hBkSNhwHA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Antonio\\Downloads\\2021 (1)\\2021\\final\\midTerm.Services\\midTerm.Services.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project midTerm.Models is not compatible with net50 (.NETFramework,Version=v5.0). Project midTerm.Models supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "midTerm.Models",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    }
+  ]
+}
